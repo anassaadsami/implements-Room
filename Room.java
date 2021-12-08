@@ -42,7 +42,7 @@ public class Room implements Comparable<Room> {
 		return "Room [name=" + name + ", length=" + length + ", width=" + width + "]";
 	}
 
-	// extra method by me to show it ok if i do my own method to compare
+	// extra method by me to show it ok if i do my own method to compare and it's by me 
 	public void compareTo1(Room r) {
 		if (this.area == r.area)
 			System.out.println("they are equal");
@@ -51,6 +51,7 @@ public class Room implements Comparable<Room> {
 		else
 			System.out.println(this.name + " is bigger than "+ r.name);
 	}
+	// this method also by me 
 	public void compareTo2( Room r) {
 		if (this.internalRoom.area == r.internalRoom.area)
 			System.out.println("they are equal");
