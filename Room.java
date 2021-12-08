@@ -5,7 +5,7 @@ public class Room implements Comparable<Room> {
 	int length;
 	int width;
 	int area ;
-	Room internalRoom ;
+	Room internalRoom ; // Room class have reference variable of Room class
 	
 	public Room(int length, int width) { // another constructor
 		this.length = length;
